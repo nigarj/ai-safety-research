@@ -125,16 +125,6 @@ jupyter notebook analysis.ipynb
 
 ---
 
-## Future Work
-
-- Compare Logistic Regression vs Random Forest overconfidence behavior
-- Add **Expected Calibration Error (ECE)** metric for quantitative calibration measurement
-- Build a **risk flagging system**: automatically surface predictions where confidence > 90% for human review
-- Extend to multi-class classification problems
-- Test on imbalanced datasets where overconfidence is more dangerous
-
----
-
 ## Key Takeaway
 
 > A 95.6% accurate model sounds impressive. But when 1 in 5 of its errors comes with 90%+ confidence, accuracy alone is not enough. In safety-critical systems, **knowing what you don't know** matters as much as being right.
